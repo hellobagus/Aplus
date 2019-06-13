@@ -1,0 +1,36 @@
+{
+  "name": "aPlus",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.2.0",
+    "babel-preset-react-native": "^4.0.0",
+    "firebase": "^6.1.1",
+    "native-base": "^2.8.1",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "^0.59.9",
+    "react-native-app-intro-slider": "^1.0.1",
+    "react-native-custom-radio-group": "^1.0.1",
+    "react-native-svg": "^8.0.10",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.11.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "16.4.1",
+    "schedule": "^0.4.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
